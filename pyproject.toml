@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dotinstall"
+version = "0.0.1"
+description = "Automate installing packages and dotfiles across a variety of environments"
+dependencies = [
+    "rich",
+    "pyyaml",
+]
+
+#[options]
+#packages = find:
+
+[project.scripts]
+dotinstall = "dotinstall:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["*"]

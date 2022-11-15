@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: dotinstall
+Version: 0.0.1
+Summary: Automate installing packages and dotfiles across a variety of environments

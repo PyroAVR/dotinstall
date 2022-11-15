@@ -1,0 +1,10 @@
+pyproject.toml
+src/dotinstall/__init__.py
+src/dotinstall/__main__.py
+src/dotinstall/main.py
+src/dotinstall.egg-info/PKG-INFO
+src/dotinstall.egg-info/SOURCES.txt
+src/dotinstall.egg-info/dependency_links.txt
+src/dotinstall.egg-info/entry_points.txt
+src/dotinstall.egg-info/requires.txt
+src/dotinstall.egg-info/top_level.txt
